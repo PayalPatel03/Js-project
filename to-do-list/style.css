@@ -1,20 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
-.container{
+
+.container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg,#153677,#4e085f);
+    background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
-.main h2 img{
+
+.main h2 img {
     width: 50px;
     margin-left: 10px;
 }
-.main{
+
+.main {
     width: 100%;
     max-width: 540px;
     background: #fff;
@@ -22,13 +25,15 @@
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
-.main h2{
+
+.main h2 {
     display: flex;
     color: #002765;
     align-items: center;
     margin-bottom: 20px;
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,15 +42,17 @@
     border-radius: 30px;
     margin-bottom: 25px;
 }
-input{
+
+input {
     flex: 1;
     border: none;
     outline: none;
     background: transparent;
     padding: 10px;
-    font-weight: 14px;  
+    font-weight: 14px;
 }
-button{
+
+button {
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -55,7 +62,8 @@ button{
     cursor: pointer;
     border-radius: 40px;
 }
-ul li{
+
+ul li {
     list-style: none;
     font-size: 17px;
     padding: 12px 8px 12px 50px;
@@ -63,7 +71,8 @@ ul li{
     cursor: pointer;
     position: relative;
 }
-ul li::before{
+
+ul li::before {
     content: '';
     position: absolute;
     height: 28px;
@@ -74,15 +83,18 @@ ul li::before{
     background-size: cover;
     background-position: center;
 }
- .checked{
+
+.checked {
     color: #555;
     text-decoration: line-through;
 }
-.checked::before{
+
+.checked::before {
     content: '';
     background-image: url(images/img4.webp);
 }
-ul li span{
+
+ul li span {
     position: absolute;
     right: 0;
     top: 5px;
@@ -94,6 +106,7 @@ ul li span{
     text-align: center;
     border-radius: 50%;
 }
-ul li span:hover{
+
+ul li span:hover {
     background: #edeef0;
 }
